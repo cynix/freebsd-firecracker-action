@@ -6,23 +6,23 @@ inputs:
   kernel-url:
     type: string
     required: false
-    default: https://github.com/cynix/freebsd-firecracker/releases/download/v0.7.2-containers/freebsd-kern.bin
+    default: https://github.com/cynix/freebsd-firecracker/releases/download/v0.7.3-containers/freebsd-kern.bin
   rootfs-url:
     type: string
     required: false
-    default: https://github.com/cynix/freebsd-firecracker/releases/download/v0.7.2-containers/freebsd-rootfs.bin.xz
+    default: https://github.com/cynix/freebsd-firecracker/releases/download/v0.7.3-containers/freebsd-rootfs.bin.xz
   firecracker-url:
     type: string
     required: false
-    default: https://github.com/cynix/freebsd-firecracker/releases/download/v0.7.2-containers/firecracker
+    default: https://github.com/cynix/freebsd-firecracker/releases/download/v0.7.3-containers/firecracker
   ssh-public-key-url:
     type: string
     required: false
-    default: https://github.com/cynix/freebsd-firecracker/releases/download/v0.7.2-containers/freebsd.id_rsa.pub
+    default: https://github.com/cynix/freebsd-firecracker/releases/download/v0.7.3-containers/freebsd.id_rsa.pub
   ssh-private-key-url:
     type: string
     required: false
-    default: https://github.com/cynix/freebsd-firecracker/releases/download/v0.7.2-containers/freebsd.id_rsa
+    default: https://github.com/cynix/freebsd-firecracker/releases/download/v0.7.3-containers/freebsd.id_rsa
   disk-size:
     required: false
     type: string
